@@ -2,7 +2,13 @@
 
 \documentclass[12pt]{article}
 
-\usepackage[left=1.25in, right=1.25in, bottom=1.25in, top=1in]{geometry}
+\usepackage[left=1.5cm, right=1.5cm, bottom=1.5cm, top=2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{CJKutf8}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+
+
 
 
 
@@ -12,65 +18,61 @@
 
 
 \begin{document}
+\begin{CJK*}{UTF8}{bsmi}
 
 \begin{center}
 
-\noindent  \LARGE{\textbf{IAMKAI}}  
+\noindent  \LARGE{\textbf{莊雲凱}}
+\\ \vspace{0.2cm}
+\noindent  \LARGE{\textbf{Yun-Kai Chuang}}
 \normalsize
 \end{center}
 
-	\section*{Skill}
+\href{https://github.com/amikai}{\faGithub}\ https://github.com/amikai \hspace*{1cm}
+\href{mailto://as23041248@gmail.com}{\faEnvelope}\ as23041248@gmail.com \hspace*{1cm}
+\href{tel:886975152023}{\faPhone} +886975152023
+
+	\section*{Experience}
 	\nointerlineskip
-	\noindent\rule{450pt}{0.4pt}
-	
-	\begin{itemize}
-	\item Familar with version control system(git) and CI tool(Travis CI).
-  	\item Imporve multi-mode resource-constrained project scheduling 10 percent performace using Apache spark.
-  	\item Experienced in performance analysis and debugging tool such as perf, gdb.
-  	\item Develope automatic tools for some repeative tasks using shell and python script.
-	\end{itemize}
+		\begin{itemize}
+		\item Familar with version control system (git) and CI tool (GitLab CI).
+		\item Experienced in performance analysis and debugging tool such as perf, gdb.
+		\item Expreienced in open source contribution. - (\href{https://github.com/Shougo/denite.nvim}{denite.nvim})
+		\item Develope automatic tools for some repetitive tasks using shell and python script.
+		\end{itemize}
 
 
 	
 	\section*{Education}
 	\nointerlineskip
-	\noindent\rule{450pt}{0.4pt}
-	  \begin{itemize}
-	  \item 2017/09 - 2019/06
-	  \vspace{-5pt}
-	  \item[] Master in Department of Computer Science and Information Engineering,
-      \\ National Cheng Kung University of Electrical Engineering and Computer Science.
-	  \end{itemize}
+		\begin{itemize}
+			\item 2017/09 - 2019/08 (expected)
+			\vspace{-6pt}
+			\item[] Master in Department of Computer Science and Information Engineering,
+			\\ National Cheng Kung University of Electrical Engineering and Computer Science.
+		\end{itemize}
 	  
 	  
 	  \begin{itemize}
-	  	\item 2013/09 - 2017/06 (expected)
-	  	\vspace{-5pt}
+	  	\item 2013/09 - 2017/06
+	  	\vspace{-6pt}
 	  	\item[]       Department of Computer and Communication Engineering, 
-      \\National Kaohsiung First University of Science and Technology
+      	\\National Kaohsiung First University of Science and Technology
 	  \end{itemize}
-
-
-	\section*{Experience}
-	\nointerlineskip
-	\noindent\rule{450pt}{0.4pt}
-	
-	\begin{itemize}
-		\item Earned Honorable Mention in the ITSA XX Contest
-		\item Participate in The 20XX ITSA Annual Collegiate Programming Contest
-		
-	\end{itemize}
-		
 
 	\section*{Projects}
 	\nointerlineskip
-	\noindent\rule{450pt}{0.4pt}
-	\begin{itemize}
-	\item Undergraduate Research: Compare the performace  between the spark and hadoop for multi-mode resource-constrained project scheduling.
-	\item Write SELinux policy to enhance the security level on OS for NCSIST.
-	\item Port Mopidy music player on respberry pi, and customize the software music equalizer on webpage.
-	\item Apply SIMD instruction to improve phonebook performance.
-	\end{itemize}
+		\begin{itemize}
+		\item \textbf{Master thesis:
+			Intelligent mechanism for user behavior analysis in Linux Security Module}
+			\\ {\color{gray} Keyword: Linux Security Module (LSM), Linux kernel programming, Deep CTR model}
 
-	
+		\item \textbf{Apply SIMD instruction to improve phonebook performance}
+		\item \textbf{Shingnan: The webiste for glasses company}
+			  \\ {\color{gray} Keyword: PHP, Boostrap3, JQuery, Gitlab CI}
+		\item \textbf{VimResizeMe: Resize vim window with ease}
+			  \\ {\color{gray} Keyword: Vimscript, Vim plugin}
+		\end{itemize}
+
+	\end{CJK*}
 \end{document}
